@@ -1,0 +1,37 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.form {
+    -fx-background-color: #fff;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+.input{
+    -fx-background-color: #ECECEC;
+    -fx-text-fill: #707070;
+    -fx-border-color: transparent;
+    -fx-border-radius: 100; 
+}
+.sipleText{
+    -fx-text-fill: #707070;
+}
+.btn_gradient {
+    -fx-background-color: linear-gradient(to left top, #F46951, #DD1737);
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 50px;
+}
+.full_size{
+    -fx-fill-height: 100%;
+    -fx-fill-width: 100%;
+}
+/*CAMPO DE TEXTO*/
+.text-field {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.text-field:focused {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
