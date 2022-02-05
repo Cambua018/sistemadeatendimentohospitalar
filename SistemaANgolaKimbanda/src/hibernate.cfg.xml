@@ -40,14 +40,18 @@ made subject to such option by the copyright holder.
 Contributor(s):
 -->
 <hibernate-configuration>
-  <session-factory>
-    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sistemahospitalar?zeroDateTimeBehavior=convertToNull</property>
-    <property name="hibernate.connection.username">root</property>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sistemahospitalar?zeroDateTimeBehavior=convertToNull</property>
+        <property name="hibernate.connection.username">root</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <mapping class="model.Usuario"/>
+        <mapping class="model.Paciente"/>
+        <mapping class="model.Prioridade"/>
+        <mapping class="model.Servico"/>
+        <mapping class="model.Especialidade"/>
     </session-factory>
 </hibernate-configuration>

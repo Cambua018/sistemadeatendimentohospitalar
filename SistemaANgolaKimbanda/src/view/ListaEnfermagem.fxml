@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="237.0" prefWidth="1004.0" style="-fx-background-radius: .5em;" styleClass="form" stylesheets="@../resource/index.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListaEnfermagemController">
+   <children>
+      <HBox alignment="CENTER" layoutX="185.0" layoutY="48.0" prefHeight="117.0" prefWidth="137.0" style="-fx-background-radius: .5em;" styleClass="btn_gradient">
+         <children>
+            <VBox alignment="CENTER" prefHeight="117.0" prefWidth="130.0">
+               <children>
+                  <Text fill="WHITE" onMouseClicked="#listarPrioridade" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-cursor: hand;" text="Prioridade" wrappingWidth="107.63720703125">
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="14.0" layoutY="56.0" prefHeight="100.0" prefWidth="163.0" style="-fx-background-radius: .5em;" styleClass="btn_gradient">
+         <children>
+            <VBox alignment="CENTER" prefHeight="160.0" prefWidth="116.0">
+               <children>
+                  <Text fill="WHITE" onMouseClicked="#listarEspecialidade" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-cursor: hand;" text="Especialidade" wrappingWidth="136.63720703125">
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Label fx:id="lblPedidos" layoutX="92.0" layoutY="14.0" prefHeight="29.0" prefWidth="603.0">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutX="332.0" layoutY="48.0" prefHeight="117.0" prefWidth="130.0" style="-fx-background-radius: .5em;" styleClass="btn_gradient">
+         <children>
+            <VBox alignment="CENTER" prefHeight="117.0" prefWidth="130.0">
+               <children>
+                  <Text fill="WHITE" onMouseClicked="#listarServico" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-cursor: hand;" text="Servico" wrappingWidth="107.63720703125">
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="473.0" layoutY="48.0" prefHeight="117.0" prefWidth="130.0" style="-fx-background-radius: .5em;" styleClass="btn_gradient">
+         <children>
+            <VBox alignment="CENTER" prefHeight="117.0" prefWidth="130.0">
+               <children>
+                  <Text fill="WHITE" onMouseClicked="#listarTriagem" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-cursor: hand;" text="Triagem" wrappingWidth="107.63720703125">
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="630.0" layoutY="48.0" prefHeight="117.0" prefWidth="130.0" style="-fx-background-radius: .5em;" styleClass="btn_gradient">
+         <children>
+            <VBox alignment="CENTER" prefHeight="117.0" prefWidth="130.0">
+               <children>
+                  <Text fill="WHITE" onMouseClicked="#listarMedico" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-cursor: hand;" text="Medico" wrappingWidth="107.63720703125">
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

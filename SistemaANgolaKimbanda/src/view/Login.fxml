@@ -14,11 +14,6 @@
    <children>
       <StackPane prefHeight="407.0" prefWidth="786.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <ImageView fx:id="txtUsuario" fitHeight="507.0" fitWidth="802.0" pickOnBounds="true">
-               <image>
-                  <Image url="@../resource/img/fundo.png" />
-               </image>
-            </ImageView>
             <AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="334.0" prefWidth="415.0" style="-fx-background-radius: .5em;" styleClass="form" stylesheets="@../resource/login.css">
                <children>
                   <TextField fx:id="txtUserName" alignment="CENTER" layoutX="28.0" layoutY="119.0" prefHeight="40.0" prefWidth="294.0" styleClass="input" AnchorPane.leftAnchor="28.0" AnchorPane.rightAnchor="28.0">
@@ -44,7 +39,7 @@
                         <Font name="Arial Black" size="15.0" />
                      </font>
                   </Label>
-                  <Button fx:id="btnEntrar" layoutX="28.0" layoutY="263.0" mnemonicParsing="false" onMouseClicked="#acessar" prefHeight="40.0" prefWidth="294.0" style="-fx-cursor: hand;" styleClass="btn_gradient" text="Entrar" AnchorPane.leftAnchor="28.0" AnchorPane.rightAnchor="28.0">
+                  <Button fx:id="btnEntrar" layoutX="28.0" layoutY="263.0" mnemonicParsing="false" onMouseClicked="#acessar" prefHeight="40.0" prefWidth="294.0" style="-fx-cursor: hand;" text="Entrar" AnchorPane.leftAnchor="28.0" AnchorPane.rightAnchor="28.0">
                      <font>
                         <Font name="Arial Black" size="14.0" />
                      </font>

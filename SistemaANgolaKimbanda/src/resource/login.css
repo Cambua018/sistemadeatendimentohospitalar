@@ -16,11 +16,7 @@
 .sipleText{
     -fx-text-fill: #707070;
 }
-.btn_gradient {
-    -fx-background-color: linear-gradient(to left top, #F46951, #DD1737);
-    -fx-text-fill: #FFFFFF;
-    -fx-border-radius: 50px;
-}
+
 .full_size{
     -fx-fill-height: 100%;
     -fx-fill-width: 100%;

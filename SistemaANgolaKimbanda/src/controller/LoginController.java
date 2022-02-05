@@ -31,8 +31,6 @@ import model.Usuario;
 public class LoginController implements Initializable {
 
     @FXML
-    private ImageView txtUsuario;
-    @FXML
     private TextField txtUserName;
     @FXML
     private PasswordField txtPassword;

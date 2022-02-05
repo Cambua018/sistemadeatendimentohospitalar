@@ -49,15 +49,7 @@
                 </HBox>
             <HBox layoutX="10.0" layoutY="153.0" style="-fx-background-color: #DD1737;">
                <children>
-                  <Button mnemonicParsing="false" style="-fx-background-color: #DD1737; -fx-text-fill: white;">
-                     <graphic>
-                        <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../resource/img/icons8_receive_dollar_64px.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #DD1737; -fx-text-fill: white;" />
                   <Text onMouseClicked="#recepcionista" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-size: 18; -fx-cursor: hand;" text="RECEPCIONISTA">
                      <font>
                         <Font name="Arial Black" size="14.0" />
@@ -70,15 +62,7 @@
             </HBox>
             <HBox layoutX="10.0" layoutY="217.0" style="-fx-background-color: #DD1737;">
                <children>
-                  <Button mnemonicParsing="false" style="-fx-background-color: #DD1737; -fx-text-fill: white;">
-                     <graphic>
-                        <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../resource/img/icons8_receive_dollar_64px.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #DD1737; -fx-text-fill: white;" />
                   <Text onMouseClicked="#enfermagem" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-size: 18; -fx-cursor: hand;" text="ENFERMAGEM">
                      <font>
                         <Font name="Arial Black" size="14.0" />
@@ -91,23 +75,7 @@
             </HBox>
             <HBox layoutX="10.0" layoutY="163.0" style="-fx-background-color: #DD1737;">
                <children>
-                  <Button mnemonicParsing="false" style="-fx-background-color: #DD1737; -fx-text-fill: white;">
-                     <graphic>
-                        <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../resource/img/icons8_receive_dollar_64px.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Text onMouseClicked="#medicos" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-size: 18; -fx-cursor: hand;" text="MEDICO">
-                     <font>
-                        <Font name="Arial Black" size="14.0" />
-                     </font>
-                     <HBox.margin>
-                        <Insets left="10.0" />
-                     </HBox.margin>
-                  </Text>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #DD1737; -fx-text-fill: white;" />
                </children>
             </HBox>
             </children>
